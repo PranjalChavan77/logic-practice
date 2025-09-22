@@ -1,0 +1,9 @@
+Q: Write the Algorithm to accept two numbers, divide the first number by the second, and display their quotient.
+
+Algorithm:
+Step 1: Start
+Step 2: Accept two numbers → nNum1, nNum2
+Step 3: If nNum2 = 0, display "Division not possible" (to avoid division by zero)
+Step 4: Otherwise, calculate nQuotient = nNum1 / nNum2
+Step 5: Display nQuotient
+Step 6: End
