@@ -1,0 +1,19 @@
+Pseudocode to accept two numbers, divide the first by the second, and display the quotient
+
+begin
+ numeric nNum1, nNum2, nQuotient
+ 
+ display "Enter the first number:"
+ accept nNum1
+ 
+ display "Enter the second number:"
+ accept nNum2
+ 
+ if nNum2 != 0 then
+  compute nQuotient as nNum1 / nNum2
+  display "The quotient is:", nQuotient
+ else
+  display "Error: Division by zero is not allowed."
+ end if
+ 
+end
