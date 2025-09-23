@@ -1,4 +1,4 @@
-Pseudocode to accept two numbers, divide the first by the second, and display the quotient
+Pseudocode to accept two numbers, divide the first by the second, and display the quotient.
 
 begin
  numeric nNum1, nNum2, nQuotient
