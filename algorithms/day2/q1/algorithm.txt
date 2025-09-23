@@ -1,4 +1,4 @@
-Write an algorithm that accepts three numbers as input and displays the smallest (least) of the three numbers.
+Write an algorithm that accepts three numbers as input and displays the smallest (least) of the three numbers
 
 Step 1: Start
 Step 2: Accept three numbers → n1, n2, n3
