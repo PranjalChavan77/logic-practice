@@ -1,0 +1,21 @@
+Pseudocode to find the smallest of three numbers
+
+begin
+   numeric n1, n2, n3, least
+   
+   display "Enter three numbers:"
+
+   accept n1, n2, n3
+
+   least = n1
+
+   if n2 < least then
+      least = n2
+   end if
+
+   if n3 < least then
+      least = n3
+   end if
+
+   display "The least number is ", least
+end
