@@ -1,4 +1,4 @@
-Q: Write the Algorithm to accept two numbers, divide the first number by the second, and display their quotient.
+Q: Write the Algorithm to accept two numbers, divide the first number by the second, and display their quotient
 
 Algorithm:
 Step 1: Start
