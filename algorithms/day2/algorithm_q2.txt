@@ -1,0 +1,11 @@
+Algorithm to accept the radius and calculate the area of a circle by using the formula: 
+Area of circle = Pi * r2, where, Pi = 22 / 7 and ‘r’ is the radius of the circle.
+
+Algorithm: Calculate Area of a Circle
+
+Step 1: Start
+Step 2: Accept the radius of the circle → r
+Step 3: Set Pi = 22 / 7
+Step 4: Calculate area using the formula → area = Pi * r * r
+Step 5: Display area
+Step 6: Stop
