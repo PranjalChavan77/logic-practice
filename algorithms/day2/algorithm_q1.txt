@@ -1,0 +1,11 @@
+Write an algorithm that accepts three numbers as input and displays the smallest (least) of the three numbers.
+
+Algorithm: Find the Least of Three Numbers
+
+Step 1: Start
+Step 2: Accept three numbers → n1, n2, n3
+Step 3: Assume n1 is the smallest → least = n1
+Step 4: If n2 < least, then set least = n2
+Step 5: If n3 < least, then set least = n3
+Step 6: Display least
+Step 7: Stop
