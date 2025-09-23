@@ -1,0 +1,13 @@
+Pseudocode: Calculate Area of a Circle
+
+begin
+   numeric r, area
+   constant Pi = 22 / 7
+
+   display "Radius"
+   accept r
+
+   area = Pi * r * r
+
+   display "The area of the circle is ", area
+end
