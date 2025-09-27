@@ -1,0 +1,11 @@
+Write an algorithm that accepts a student’s grade and displays the corresponding remark.
+
+Algorithm:
+
+Step 1: Start
+Step 2: Input grade (A, B or C)
+Step 3: If grade = A → Display "Excellent"
+Step 4: Else if grade = B → Display "Very Good"
+Step 5: Else if grade = C → Display "Good"
+Step 6: Else → Display "Invalid grade"
+Step 7: End
