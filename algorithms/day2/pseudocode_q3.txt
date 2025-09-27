@@ -1,0 +1,25 @@
+Question: Write a pseudocode that accepts a student's grade (A, B, or C) as input 
+and displays the corresponding remark.
+
+- If grade = A → Display "Excellent"
+- If grade = B → Display "Very Good"
+- If grade = C → Display "Good"
+
+  begin
+  string grade, remark
+
+  display "Enter the grade (A, B, or C):"
+  accept grade
+
+  if grade = "A" then
+      remark = "Excellent"
+  else if grade = "B" then
+      remark = "Very Good"
+  else if grade = "C" then
+      remark = "Good"
+  else
+      remark = "Invalid grade"
+  end if
+
+  display "The remark is:", remark
+end
