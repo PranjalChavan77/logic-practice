@@ -1,0 +1,21 @@
+Write pseudocode to calculate and display the sum of the first 10 natural numbers.
+
+begin
+  numeric nNum, nSum
+
+  nSum = 0
+  nNum = 1
+
+  display "Enter initial number:"
+  accept nNum
+
+  display "Enter initial sum:"
+  accept nSum
+
+  while nNum <= 10 do
+      nSum = nSum + nNum
+      nNum = nNum + 1
+  end while
+
+  display "The sum of first 10 natural numbers is:", nSum
+end
