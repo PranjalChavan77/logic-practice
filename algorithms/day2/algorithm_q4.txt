@@ -1,0 +1,11 @@
+Calculate and Display the sum of the first 10 natural numbers.
+
+Algorithm
+
+Step 1: Start
+Step 2: Initialize Sum = 0, N = 1
+Step 3: Repeat steps 4–5 while N ≤ 10
+Step 4: Add N to Sum, Sum = Sum + N
+Step 5: Increment N by 1
+Step 6: After the loop ends, display Sum
+Step 7: Stop
