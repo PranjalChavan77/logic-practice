@@ -1,0 +1,29 @@
+Psedocode to accept two numbers and display sum, difference, product, quotient, and remainder.
+
+begin
+    numeric num1, num2, nSum, nDifference, nProduct, nQuotient, nRemainder
+
+    display "Enter first number:"
+    accept num1
+    display "Enter second number:"
+    accept num2
+
+    nSum = num1 + num2
+    nDifference = num1 - num2
+    nProduct = num1 * num2
+
+    if num2 != 0 then
+        nQuotient = num1 / num2
+        nRemainder = num1 % num2
+    else
+        Display "Division by zero not allowed"
+    end if
+
+    display "Sum: ", nSum
+    display "Difference: ", nDifference
+    display "Product: ", nProduct
+    if num2 != 0 then
+        display "Quotient: ", nQuotient
+        display "Remainder: ", nRemainder
+    end if
+end
