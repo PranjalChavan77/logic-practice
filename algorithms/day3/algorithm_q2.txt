@@ -1,0 +1,28 @@
+Compare two numbers 
+Consider the numbers num1 = 10 and num2 = 15. 
+Write an algorithm to compare these two numbers and display whether each of the following conditions is True or False:
+Operators used: >, <, >=, <=, ==, !=
+
+Algorithm
+
+Start
+Declare numeric variables: num1 = 10, num2 = 15
+Accept num1
+Accept num2
+Check and display:
+10 > 15
+10 < 15
+10 == 15
+10 != 15
+10 >= 15
+10 <= 15
+Stop
+
+---------------------------------------
+Expected Output:
+10 > 15: False
+10 < 15: True
+10 == 15: False
+10 != 15: True
+10 >= 15: False
+10 <= 15: True
