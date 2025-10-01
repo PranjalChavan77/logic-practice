@@ -1,0 +1,27 @@
+Compare two number num1 , num2.
+Consider the numbers num1 = 10 and num2 = 15.
+Write a pseudocode to compare these two numbers and display whether each of the following conditions is True or False:
+
+begin
+    numeric num1, num2
+
+    display "Enter first number:"
+    accept num1 // num1=10
+    display "Enter second number:"
+    accept num2 // num2=15
+
+    display "10 > 15 : ", 10 > 15      // Checks if 10 is greater than 15 = False
+    display "10 < 15 : ", 10 < 15      // Checks if 10 is less than 15 = True
+    display "10 == 15 : ", 10 == 15    // Checks if 10 is equal to 15 = False
+    display "10 != 15 : ", 10 != 15    // Checks if 10 is not equal to 15 = True
+    display "10 >= 15 : ", 10 >= 15    // Checks if 10 is greater than or equal to 15  False
+    display "10 <= 15 : ", 10 <= 15    // Checks if 10 is less than or equal to 15 = True
+end
+---------------------------------------
+Expected Output:
+10 > 15: False
+10 < 15: True
+10 == 15: False
+10 != 15: True
+10 >= 15: False
+10 <= 15: True
