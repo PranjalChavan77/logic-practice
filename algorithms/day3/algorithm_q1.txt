@@ -1,0 +1,14 @@
+Accept two numbers and display sum, difference, product, quotient, and remainder.
+
+Algorithm
+
+Start
+Accept first number num1
+Accept second number num2
+Calculate sum = num1 + num2
+Calculate difference = num1 - num2
+Calculate product = num1 * num2
+Calculate quotient = num1 / num2
+Calculate remainder = num1 % num2
+Display sum, difference, product, quotient, remainder
+Stop
