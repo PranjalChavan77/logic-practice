@@ -1,0 +1,22 @@
+Problem:  
+Write an algorithm that accepts an alphabet from the user.  
+Check whether the alphabet is a vowel (a, e, i, o, u).  
+If it is a vowel, display "The alphabet is a vowel".  
+Otherwise, display "The alphabet is not a vowel".
+
+Algorithm
+
+Start
+Declare a character variable 'alphabet'
+Accept 'alphabet' from the user
+Switch (alphabet)
+       Case 'a', 'A':
+       Case 'e', 'E':
+       Case 'i', 'I':
+       Case 'o', 'O':
+       Case 'u', 'U':
+            Display "The alphabet is a vowel"
+            Break
+       Default:
+            Display "The alphabet is not a vowel"
+End
