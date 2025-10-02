@@ -1,0 +1,18 @@
+Write an algorithm that accepts two numbers and an operator (+, -, *, /) from the user.
+Based on the operator entered, perform the corresponding arithmetic operation (addition, subtraction, multiplication, or division) and display the result.  
+
+Algorithm
+
+Start
+Declare numeric variables num1, num2 and character variable operator
+Accept num1 and num2 from the user
+Accept operator (+, -, *, /) from the user
+Use switch-case on operator
+Case '+': compute num1 + num2 and display the result
+Case '-': compute num1 - num2 and display the result
+Case '*': compute num1 * num2 and display the result
+Case '/':
+  If num2 ≠ 0, compute num1 / num2 and display the result
+  Else display "Division by zero not allowed"
+Default: display "Invalid operator"
+End
