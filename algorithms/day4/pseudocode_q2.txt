@@ -1,0 +1,30 @@
+Write pseudocode for a program that accepts two numbers and an operator (+, -, *, /) from the user.  
+Use a switch-case construct to perform the operation based on the operator:
+
+begin
+    numeric num1, num2
+    character operator
+
+    display "Enter first number:"
+    accept num1
+    display "Enter second number:"
+    accept num2
+    display "Enter operator (+, -, *, /):"
+    accept operator
+
+    switch (operator) do
+        case '+':
+            display "Result: ", num1 + num2
+        case '-':
+            display "Result: ", num1 - num2
+        case '*':
+            display "Result: ", num1 * num2
+        case '/':
+            if num2 != 0 then
+                display "Result: ", num1 / num2
+            else
+                display "Division by zero not allowed"
+        default:
+            display "Invalid operator"
+    end switch
+end
