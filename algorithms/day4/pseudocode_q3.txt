@@ -1,0 +1,70 @@
+Problem:  
+Write pseudocode that accepts an alphabet from the user.  
+Check whether the alphabet is a vowel (a, e, i, o, u).  
+If it is a vowel, display "The alphabet is a vowel".  
+Otherwise, display "The alphabet is not a vowel".
+
+begin
+    character alphabet
+
+    display "Enter an alphabet:"
+    accept alphabet
+
+    switch alphabet
+        case 'a':
+            display "The alphabet is a vowel"
+            break
+        case 'A':
+            display "The alphabet is a vowel"
+            break
+        case 'e':
+            display "The alphabet is a vowel"
+            break
+        case 'E':
+            display "The alphabet is a vowel"
+            break
+        case 'i':
+            display "The alphabet is a vowel"
+            break
+        case 'I':
+            display "The alphabet is a vowel"
+            break
+        case 'o':
+            display "The alphabet is a vowel"
+            break
+        case 'O':
+            display "The alphabet is a vowel"
+            break
+        case 'u':
+            display "The alphabet is a vowel"
+            break
+        case 'U':
+            display "The alphabet is a vowel"
+            break
+        default:
+            display "The alphabet is not a vowel"
+end
+
+
+// shorter version 
+begin
+    character alphabet
+
+    display "Enter an alphabet:"
+    accept alphabet
+
+    switch alphabet
+        case 'a', 'A':
+        case 'e', 'E':
+        case 'i', 'I':
+        case 'o', 'O':
+        case 'u', 'U':
+            display "The alphabet is a vowel"
+            break
+        default:
+            display "The alphabet is not a vowel"
+end
+
+
+// Shorter version combines lowercase and uppercase vowels in a single case to reduce repetition.
+// Both forms achieve the same result, but the short version is more concise and easier to maintain.
