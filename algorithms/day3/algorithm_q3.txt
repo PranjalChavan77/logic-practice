@@ -1,0 +1,14 @@
+A shop gives a discount to a customer if:
+The day is not Sunday, AND
+The purchase amount > 5000.
+Write an algorithm and expected result to determine if the user gets a discount.
+
+Algorithm
+
+Start
+Input day
+Input purchase_amount
+Check: (day != "Sunday") AND (purchase_amount > 5000)
+If True → Display "Discount Applied"
+Else = Display "No Discount"
+End
