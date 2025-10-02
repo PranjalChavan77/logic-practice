@@ -1,0 +1,28 @@
+Write Pseudocode to accept a number (1–7) and display the corresponding day of the week using a switch-case construct.
+
+begin
+    numeric day
+
+    display "Enter a number (1–7): "
+    accept day
+
+    switch (day) do
+    begin switch
+        case 1:
+            display "Sunday"
+        case 2:
+            display "Monday"
+        case 3:
+            display "Tuesday"
+        case 4:
+            display "Wednesday"
+        case 5:
+            display "Thursday"
+        case 6:
+            display "Friday"
+        case 7:
+            display "Saturday"
+        default:
+            display "Invalid input! Please enter a number between 1 and 7."
+    end switch
+end
