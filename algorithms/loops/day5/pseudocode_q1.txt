@@ -1,0 +1,21 @@
+Write pseudocode that accepts 5 numbers from the user and checks whether each number is even or odd using for loop.
+If the number is even, display: "The Number Is Even".
+Otherwise, display: "The Number Is Odd".
+
+begin
+  numeric nNum1 , nCounter
+  for ( nCounter = 0; nCounter <= 4; nCounter = nCounter + 1 )
+  begin 
+       display 'Enter a number'
+       accept nNum1
+       if (nNum1 % 2 == 0) then
+       begin 
+            display 'The number is Even'
+       end 
+       else
+       begin 
+            display 'The number is Odd'
+       end
+   end
+end
+       
