@@ -1,4 +1,4 @@
-Write an algorithm to accept a number (1–7) and display the corresponding day of the week using a switch-case construct.
+Write an algorithm to accept a number (1–7) and display the corresponding day of the week using a switch-case construct. 
 
 Algorithm (Day of Week using Switch)
 
