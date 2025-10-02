@@ -1,0 +1,16 @@
+Write an algorithm to accept a number (1–7) and display the corresponding day of the week using a switch-case construct.
+
+Algorithm (Day of Week using Switch)
+
+Start
+Input dayNumber (1–7)
+Switch (dayNumber):
+Case 1: Display "Sunday"
+Case 2: Display "Monday"
+Case 3: Display "Tuesday"
+Case 4: Display "Wednesday"
+Case 5: Display "Thursday"
+Case 6: Display "Friday"
+Case 7: Display "Saturday"
+Default: Display "Invalid Input"
+End
