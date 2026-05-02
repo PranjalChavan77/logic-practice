@@ -1,65 +1,74 @@
-// 1. Print all numbers from 1 to 10 using a loop
 
+// 1. Print numbers from 1 to 10
+
+let num = 1;
+
+while (num <= 10) {
+    console.log(num);
+    num++;
+}
+
+
+// 2. Print numbers from 10 to 1 (reverse order)
+
+let reverseNum = 10;
+
+while (reverseNum >= 1) {
+    console.log(reverseNum);
+    reverseNum--;
+}
+
+
+// 3. Print even numbers between 1 and 100
+
+let even = 2;
+
+while (even <= 100) {
+    console.log(even);
+    even += 2;
+}
+
+
+// 4. Print odd numbers between 1 and 100
+
+let odd = 1;
+
+while (odd <= 100) {
+    console.log(odd);
+    odd += 2;
+}
+
+
+// 5. Print square of numbers from 1 to n
+
+let n = 10;
 let i = 1;
 
-while (i <= 10) {
-    console.log(i);
+while (i <= n) {
+    console.log(i * i);
     i++;
 }
 
-// 2. Print numbers from 10 down to 1 in reverse order
 
-let a = 10;
+// 6. Print cube of numbers from 1 to n
 
-while (a >= 1) {
-  console.log(a);
-  a--;
+let m = 5;
+let j = 1;
+
+while (j <= m) {
+    console.log(j * j * j);
+    j++;
 }
 
-// 3. Print all even numbers between 1 and 100 ( even number = divisible by 2 )
 
-let b = 2;
+// 7. Print numbers divisible by 7 between 1 and 100
 
-while (b <= 100) {
-    console.log(b);
-    b += 2;               // keeps adding 2
-}
+let start = 1;
+let end = 100;
 
-// 4. Print all odd numbers between 1 and 100
-
-let c = 1;
-
-while (c <= 100) {
-    console.log(c);
-    c += 2;
-}
-
-// 5. Print the square of each number from 1 to n
-
-let d = 10;
-let e = 1;
-
-while (e <= d) {
-  console.log(e * e);
-  e++;
-}
-
-// 6.  Print the cube of each number from 1 to n
-
-let f = 5;
-let g = 1;
-
-while (g <= f) {
-    console.log(g * g * g);
-    g++;
-}
-
-// 7. Print all numbers between h and j that are divisible by 7
-
-let h = 1, j = 100;
-let k = h;
-
-while (k <= j){
-  if (k% 7 === 0) console.log(k)
-  k++;
+while (start <= end) {
+    if (start % 7 === 0) {
+        console.log(start);
+    }
+    start++;
 }
